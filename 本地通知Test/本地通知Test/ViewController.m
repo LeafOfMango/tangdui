@@ -60,7 +60,8 @@
 }
 
 - (IBAction)sendMessage:(id)sender {
-    
+//    测试sourceTree
+    NSLog(@"测试sourceTree");
     UILocalNotification *note = [[UILocalNotification alloc] init];
     note.alertTitle = @"发送通知";
     note.alertBody = @"发送通知成功";
